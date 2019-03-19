@@ -1,15 +1,15 @@
 **Table of Contents**
 
 * [Installation](#installation)
-* [activate](#activated service salt)
+* [activate service salt](#activated)
 * [edit_configuration](#edit configuration)
-* [restart service](#restart service)
+* [restart service](#restart_service)
 * [show list key](#show list key)
 * [authorize the listed minions](#authorize the listed minions)
 * [permit all keys with "A" option](#permit all keys)
 
-## installation
-##install & download salt di CentOS
+## Installation
+## install & download salt di CentOS
 ```bash
 yum install https://repo.saltstack.com/yum/redhat/salt-repo-latest-2.el7.noarch.rpm
 yum clean expire-cache
