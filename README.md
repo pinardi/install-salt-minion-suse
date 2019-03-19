@@ -8,7 +8,8 @@
 * [authorize the listed minions](#authorize the listed minions)
 * [permit all keys with "A" option](#permit all keys)
 
-## install & download salt di CentOS
+## installation
+##install & download salt di CentOS
 ```bash
 yum install https://repo.saltstack.com/yum/redhat/salt-repo-latest-2.el7.noarch.rpm
 yum clean expire-cache
