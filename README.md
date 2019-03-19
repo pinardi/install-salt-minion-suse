@@ -2,27 +2,27 @@
 
 * [Installation](#installation)
 * [activate service salt](#activated)
-* [edit_configuration](#edit configuration)
-* [restart service](#restart_service)
-* [show list key](#show list key)
+* [edit](#edit)
+* [restart](#restart)
+* [key](#show)
 * [authorize the listed minions](#authorize the listed minions)
 * [permit all keys with "A" option](#permit all keys)
 
-## Installation
+# Installation
 ## install & download salt di CentOS
 ```bash
 yum install https://repo.saltstack.com/yum/redhat/salt-repo-latest-2.el7.noarch.rpm
 yum clean expire-cache
 yum install salt-minion
 ```
-## activated
+# activated
 ## start & activated service salt di CentOS
 ```bash
 systemctl start salt-minion.service
 systemctl enable salt-minion.service
 ```
 
-## edit_configuration 
+# edit
 ## salt minion
 ```bash
 nano /etc/salt/minion
