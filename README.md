@@ -2,7 +2,7 @@
 
 * [Installation](#installation)
 * [activate service salt](#activated)
-* [edit](#edit)
+* [edit configuration](#edit)
 * [restart](#restart)
 * [key](#show)
 * [authorize the listed minions](#authorize the listed minions)
