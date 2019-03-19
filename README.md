@@ -3,8 +3,8 @@
 * [Installation](#installation)
 * [activate service salt](#activated)
 * [edit configuration](#edit)
-* [restart](#restart)
-* [key](#show)
+* [restart service salt master dan minion](#restart)
+* [show key](#show)
 * [authorize the listed minions](#authorize the listed minions)
 * [permit all keys with "A" option](#permit all keys)
 
@@ -28,7 +28,7 @@ systemctl enable salt-minion.service
 nano /etc/salt/minion
 master: "ip of salt server"
 ```
-
+# restart
 ## restart service salt master dan minion
 ```bash
 systemctl salt-master start
