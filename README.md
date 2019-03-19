@@ -4,9 +4,9 @@
 * [activate service salt](#activated)
 * [edit configuration](#edit)
 * [restart service salt master dan minion](#restart)
-* [show key](#show)
-* [authorize the listed minions](#authorize the listed minions)
-* [permit all keys with "A" option](#permit all keys)
+* [show list key has been connect from minion to master](#show)
+* [authorize the listed minions](#authorize)
+* [permit all keys with "A" option](#permit)
 
 # Installation
 ## install & download salt di CentOS
@@ -37,16 +37,18 @@ systemctl enable salt-master
 systemctl salt-minion start
 systemctl enable salt-mionion
 ```
-
+# show
 ## show list key has been connect from minion to master
 ```bash
 salt-key -L
 ```
-
+# authorize
 ## authorize the listed minions
 ```bash
 salt-key -A
 ```
+
+# permit
 ## permit all keys with "A" option
 
 ```bash
