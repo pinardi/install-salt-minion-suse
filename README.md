@@ -8,7 +8,6 @@
 # Installation
 ## install & download salt SUSE
 ```bash
-yum install https://repo.saltstack.com/yum/redhat/salt-repo-latest-2.el7.noarch.rpm
 apt-get update
 apt-get install salt-minion
 ```
