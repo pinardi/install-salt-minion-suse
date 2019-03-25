@@ -3,10 +3,7 @@
 * [Installation](#installation)
 * [activate service salt](#activated)
 * [edit configuration](#edit)
-* [restart service salt master dan minion](#restart)
-* [show list key has been connect from minion to master](#show)
-* [authorize the listed minions](#authorize)
-* [permit all keys with "A" option](#permit)
+* [restart service salt minion](#restart)
 
 # Installation
 ## install & download salt di CentOS
@@ -36,32 +33,4 @@ systemctl enable salt-master
 
 systemctl salt-minion start
 systemctl enable salt-mionion
-```
-# show
-## show list key has been connect from minion to master
-```bash
-salt-key -L
-```
-# authorize
-## authorize the listed minions
-```bash
-salt-key -A
-```
-
-# permit
-## permit all keys with "A" option
-
-```bash
-salt-key -A 
-The following keys are going to be accepted:
-Unaccepted Keys:
-node01.srv.world
-Proceed? [n/Y] y Key for minion node01.srv.world accepted.
-
-salt-key -L 
-Accepted Keys:
-node01.srv.world
-Denied Keys:
-Unaccepted Keys:
-Rejected Keys:
 ```
